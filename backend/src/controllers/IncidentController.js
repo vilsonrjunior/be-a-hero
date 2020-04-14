@@ -14,7 +14,7 @@
             .offset((page - 1) * 5)
             .select(['incidents.*',
                 'ngos.name', 
-                'ngos.email', 
+                'ngos.email',
                 'ngos.whatsapp',  
                 'ngos.city', 
                 'ngos.country'
