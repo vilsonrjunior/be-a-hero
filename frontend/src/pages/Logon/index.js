@@ -14,6 +14,7 @@ export default function Logon() {
          <form>
              <h1>Sign In</h1>
              <input placeholder="Your ID" />
+             <input placeholder="Password" />
              <button className="button" type="submit">Sign In</button>
              
              <Link className="back-link" to="/register">
